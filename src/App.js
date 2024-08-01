@@ -1,11 +1,12 @@
-import logo from './logo.svg';
+
+import { Outlet } from 'react-router-dom';
 import './App.css';
 
 function App() {
   return (
-    <div className="App">
-      <h1 className='text-blue-600'>mern</h1>
-    </div>
+    <>
+      <Outlet/>
+    </>
   );
 }
 
