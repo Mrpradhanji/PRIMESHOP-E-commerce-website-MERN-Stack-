@@ -1,3 +1,5 @@
+
+
 const backendDomin = "http://localhost:8080"
 
 const SummaryApi = {
@@ -75,6 +77,10 @@ const SummaryApi = {
     },
     filterProduct : {
         url : `${backendDomin}/api/filter-product`,
+        method : 'post'
+    },
+    payment : {
+        url : `${backendDomin}/api/checkout`,
         method : 'post'
     }
 }
